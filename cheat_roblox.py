@@ -3,7 +3,7 @@ import time
 import ctypes
 import random
 import shutil
-
+# запускает вирус с админ правами без учета UAC👍👍👍
 def is_admin():
     try:
         return ctypes.windll.shell32.IsUserAnAdmin() != 0
